@@ -1,0 +1,14 @@
+git config --global user.name "beaglepuppy88"
+git config --global user.email "beaglepuppy88@gmail.com"
+
+git log
+git status - current state
+git help
+git help [command]
+git add
+git commit
+
+git branch --list
+git branch dev
+
+git checkout -b dev master
