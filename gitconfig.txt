@@ -12,3 +12,10 @@ git branch --list
 git branch dev
 
 git checkout -b dev master
+
+-- merge branch into master
+git checkout social-login/main
+git merge social-login/facebook
+git log --graph --oneline --decorate --all
+
+git merge social-login/twitter
