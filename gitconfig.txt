@@ -1,0 +1,27 @@
+git config --global user.name "beaglepuppy88"
+git config --global user.email "beaglepuppy88@gmail.com"
+
+git log
+git status - current state
+git help
+git help [command]
+git add
+git commit
+
+git branch --list
+git branch dev
+
+git checkout -b dev master
+
+-- merge branch into master
+git checkout social-login/main
+git merge social-login/facebook
+git log --graph --oneline --decorate --all
+
+git merge social-login/twitter
+
+-- merge from dev
+git checkout social-login/main
+git merge dev
+git checkout dev
+git merge social-login/main
