@@ -19,3 +19,9 @@ git merge social-login/facebook
 git log --graph --oneline --decorate --all
 
 git merge social-login/twitter
+
+-- merge from dev
+git checkout social-login/main
+git merge dev
+git checkout dev
+git merge social-login/main
